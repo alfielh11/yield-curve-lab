@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+requests
+lxml
+scipy
+scikit-learn
+pyarrow
+duckdb
+tqdm
+python-dateutil
+pytest

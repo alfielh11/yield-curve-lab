@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yield-curve-lab"
+version = "0.1.0"
+description = "US Treasury yield curve modelling, PCA factors, and scenario engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "yield-curve-lab"}]
+
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "requests",
+  "lxml",
+  "scipy",
+  "scikit-learn",
+  "pyarrow",
+  "duckdb",
+  "tqdm",
+  "python-dateutil"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
