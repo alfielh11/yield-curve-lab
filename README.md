@@ -1,5 +1,6 @@
 # Yield Curve Lab
 Project complete 13/02/2026 
+
 macro/rates quant project that builds a small rates engine from public US Treasury data.
 
 This repo shows how to:
