@@ -1,6 +1,6 @@
 # Yield Curve Lab
 
-A free, beginner-friendly macro/rates quant project that builds a small rates engine from public US Treasury data.
+macro/rates quant project that builds a small rates engine from public US Treasury data.
 
 This repo shows how to:
 - download and clean daily US Treasury yield curve data,
